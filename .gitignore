@@ -1,6 +1,6 @@
 # OSX
 #
-.DS_Store
+*.DS_Store
 
 # XDE
 .expo/
@@ -28,6 +28,7 @@ DerivedData
 *.ipa
 *.xcuserstate
 project.xcworkspace
+example/ios/build/
 
 # Android/IJ
 #
@@ -39,6 +40,8 @@ project.xcworkspace
 .settings
 local.properties
 android.iml
+android/build/
+example/android/app/build/
 
 # Cocoapods
 #
