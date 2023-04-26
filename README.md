@@ -1,11 +1,11 @@
 # react-native-hashcash
 
-c++ turbo module with the new arch for implementing sha-256 based hashcash algorithm against brute-force
+C++ turbo module with the new arch for implementing SHA-256 based Hashcash algorithm against brute-force
 
 ## Installation
 
 ```sh
-npm install react-native-hashcash
+npm i https://github.com/tolgaatam/react-native-hashcash
 ```
 
 ## Usage
@@ -16,7 +16,7 @@ import { calculateHashcash } from 'react-native-hashcash';
 
 // ...
 
-const result = calculateHashcash(18, "tolgaatam");
+const result = calculateHashcash(19, "tolgaatam");
 ```
 
 ## Contributing
@@ -30,3 +30,5 @@ MIT
 ---
 
 Made with [create-react-native-library](https://github.com/callstack/react-native-builder-bob)
+
+Uses [stbrumme's C++ hashing library](https://github.com/stbrumme/hash-library) for calculating SHA256 hashes
