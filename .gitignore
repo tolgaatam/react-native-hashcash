@@ -56,6 +56,7 @@ node_modules/
 npm-debug.log
 yarn-debug.log
 yarn-error.log
+example/node_modules/
 
 # BUCK
 buck-out/
