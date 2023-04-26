@@ -10,14 +10,17 @@ npm i https://github.com/tolgaatam/react-native-hashcash
 
 ## Usage
 
+Import async function `calculateHashcash` and execute it with k (difficulty multiplier) and user identifier
 
 ```js
 import { calculateHashcash } from 'react-native-hashcash';
 
 // ...
 
-const result = calculateHashcash(19, "tolgaatam");
+const result = await calculateHashcash(19, "tolgaatam");
 ```
+
+k must be an integer and the user identifier must be a string.
 
 ## Contributing
 
