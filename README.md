@@ -2,10 +2,12 @@
 
 Expo-compatible C++ turbo module for the new architecture which implements SHA-256 based Hashcash algorithm against brute-force
 
+(See [react-native-hashcash-old](https://github.com/tolgaatam/react-native-hashcash-old) for the version for the old architecture)
+
 ## Installation
 
 ```sh
-npm i https://github.com/tolgaatam/react-native-hashcash
+npm i github:tolgaatam/react-native-hashcash#v0.1.0
 ```
 
 ## Usage
@@ -28,7 +30,11 @@ It is advisable to not allow colons in the resource identifier. It could make pa
 
 ## Ceveats
 
-- Only Hashcash version 1 is supported. Salt size is not configurable (16 chars fixed).
+- Only the most recent Hashcash version 1 is supported. 
+
+- Date format only supports yyMMdd. 
+
+- Salt size is not configurable (16 chars fixed).
 
 ## Contributing
 
