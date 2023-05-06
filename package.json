@@ -1,7 +1,7 @@
 {
   "name": "react-native-hashcash",
   "version": "0.1.0",
-  "description": "test",
+  "description": "native C++ turbo module for the new architecture which implements SHA-256 based Hashcash algorithm against brute-force",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
   "types": "lib/typescript/index.d.ts",
